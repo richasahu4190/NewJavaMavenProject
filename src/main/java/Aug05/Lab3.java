@@ -1,8 +1,8 @@
 package Aug05;
 
-import com.cg.eis.bean.Employee;
-import com.cg.eis.service.EmployeeService;
-import com.cg.eis.pl.EmployeeServiceImpl;
+import Aug05.com.cg.eis.bean.Employee;
+import Aug05.com.cg.eis.service.EmployeeService;
+import Aug05.com.cg.eis.pl.EmployeeServiceImpl;
 import java.util.Scanner;
 
 public class Lab3 {

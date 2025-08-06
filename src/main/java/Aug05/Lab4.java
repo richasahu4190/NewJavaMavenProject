@@ -1,7 +1,7 @@
 package Aug05;
 
-import com.cg.eis.bean.Employee;
-import com.cg.eis.service.EmployeeService;
+import Aug05.com.cg.eis.bean.Employee;
+import Aug05.com.cg.eis.service.EmployeeService;
 import java.util.Scanner;
 
 class EmployeeServiceImplement implements EmployeeService {
