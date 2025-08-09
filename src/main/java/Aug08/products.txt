@@ -1,0 +1,5 @@
+Camera
+Laptop
+Mobile
+Smartwatch
+Tablet
