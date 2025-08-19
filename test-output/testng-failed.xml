@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [mysuite1]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Lab8_Lab3Test Execution(failed)">
+    <classes>
+      <class name="Selenium_Labs.Lab8_Lab4Test">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="afterTest"/>
+          <include name="beforeMethod"/>
+          <include name="beforeSuite"/>
+          <include name="afterClass"/>
+          <include name="f" invocation-numbers="0"/>
+          <include name="afterSuite"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- Selenium_Labs.Lab8_Lab4Test -->
+    </classes>
+  </test> <!-- Lab8_Lab3Test Execution(failed) -->
+</suite> <!-- Failed suite [mysuite1] -->
