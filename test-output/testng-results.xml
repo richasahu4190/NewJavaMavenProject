@@ -2,152 +2,153 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-08-21T16:35:15 IST" name="Default suite" finished-at="2025-08-21T16:35:31 IST" duration-ms="16077">
+  <suite started-at="2025-08-22T22:03:42 IST" name="Default suite" finished-at="2025-08-22T22:04:11 IST" duration-ms="29083">
     <groups>
     </groups>
-    <test started-at="2025-08-21T16:35:15 IST" name="Default test" finished-at="2025-08-21T16:35:31 IST" duration-ms="16077">
-      <class name="Selenium_Labs.Lab14">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:Selenium_Labs.Lab14@2ef3eef9]" started-at="2025-08-21T16:35:15 IST" name="beforeClass" finished-at="2025-08-21T16:35:18 IST" duration-ms="3399" status="PASS">
+    <test started-at="2025-08-22T22:03:42 IST" name="Default test" finished-at="2025-08-22T22:04:11 IST" duration-ms="29083">
+      <class name="Selenium_Labs.Lab16">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:Selenium_Labs.Lab16@6eda5c9]" started-at="2025-08-22T22:03:42 IST" name="beforeSuite" finished-at="2025-08-22T22:03:42 IST" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:Selenium_Labs.Lab16@6eda5c9]" started-at="2025-08-22T22:03:42 IST" name="beforeTest" finished-at="2025-08-22T22:03:42 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:Selenium_Labs.Lab16@6eda5c9]" started-at="2025-08-22T22:03:42 IST" name="beforeClass" finished-at="2025-08-22T22:03:42 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Selenium_Labs.Lab14@2ef3eef9]" started-at="2025-08-21T16:35:20 IST" name="beforeMethod" finished-at="2025-08-21T16:35:20 IST" duration-ms="807" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Selenium_Labs.Lab16@6eda5c9]" started-at="2025-08-22T22:03:42 IST" name="beforeMethod" finished-at="2025-08-22T22:03:50 IST" duration-ms="7947" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="registerUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Selenium_Labs.Lab14@2ef3eef9]" started-at="2025-08-21T16:35:20 IST" name="registerUser" data-provider="dp" finished-at="2025-08-21T16:35:24 IST" duration-ms="3545" status="PASS">
+        <test-method signature="registerAccount(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Selenium_Labs.Lab16@6eda5c9]" started-at="2025-08-22T22:03:50 IST" name="registerAccount" data-provider="UserDetails" finished-at="2025-08-22T22:03:53 IST" duration-ms="3293" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[John]]>
+                <![CDATA[Priya]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[Doe]]>
+                <![CDATA[Mehta]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[John01@test.com]]>
+                <![CDATA[priya.mehta@mail.com]]>
               </value>
             </param>
             <param index="3">
               <value>
-                <![CDATA[8877667788]]>
+                <![CDATA[9876101234]]>
               </value>
             </param>
             <param index="4">
               <value>
-                <![CDATA[Hello@908]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[Hello@908]]>
+                <![CDATA[Priya@123]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- registerUser -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Selenium_Labs.Lab14@2ef3eef9]" started-at="2025-08-21T16:35:24 IST" name="afterMethod" finished-at="2025-08-21T16:35:24 IST" duration-ms="0" status="PASS">
+        </test-method> <!-- registerAccount -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Selenium_Labs.Lab16@6eda5c9]" started-at="2025-08-22T22:03:53 IST" name="afterMethod" finished-at="2025-08-22T22:03:54 IST" duration-ms="420" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Selenium_Labs.Lab14@2ef3eef9]" started-at="2025-08-21T16:35:24 IST" name="beforeMethod" finished-at="2025-08-21T16:35:24 IST" duration-ms="337" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Selenium_Labs.Lab16@6eda5c9]" started-at="2025-08-22T22:03:54 IST" name="beforeMethod" finished-at="2025-08-22T22:03:59 IST" duration-ms="5111" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="registerUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Selenium_Labs.Lab14@2ef3eef9]" started-at="2025-08-21T16:35:24 IST" name="registerUser" data-provider="dp" finished-at="2025-08-21T16:35:27 IST" duration-ms="2700" status="PASS">
+        <test-method signature="registerAccount(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Selenium_Labs.Lab16@6eda5c9]" started-at="2025-08-22T22:03:59 IST" name="registerAccount" data-provider="UserDetails" finished-at="2025-08-22T22:04:02 IST" duration-ms="3315" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Bob]]>
+                <![CDATA[Arjun]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[Marley]]>
+                <![CDATA[Singh]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[bobmarley@test.com]]>
+                <![CDATA[arjun.singh@mail.com]]>
               </value>
             </param>
             <param index="3">
               <value>
-                <![CDATA[987678904]]>
+                <![CDATA[9876205678]]>
               </value>
             </param>
             <param index="4">
               <value>
-                <![CDATA[Secure@789]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[Secure@789]]>
+                <![CDATA[Arjun@123]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- registerUser -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Selenium_Labs.Lab14@2ef3eef9]" started-at="2025-08-21T16:35:27 IST" name="afterMethod" finished-at="2025-08-21T16:35:27 IST" duration-ms="1" status="PASS">
+        </test-method> <!-- registerAccount -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Selenium_Labs.Lab16@6eda5c9]" started-at="2025-08-22T22:04:02 IST" name="afterMethod" finished-at="2025-08-22T22:04:03 IST" duration-ms="384" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Selenium_Labs.Lab14@2ef3eef9]" started-at="2025-08-21T16:35:27 IST" name="beforeMethod" finished-at="2025-08-21T16:35:27 IST" duration-ms="373" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Selenium_Labs.Lab16@6eda5c9]" started-at="2025-08-22T22:04:03 IST" name="beforeMethod" finished-at="2025-08-22T22:04:08 IST" duration-ms="5044" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="registerUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Selenium_Labs.Lab14@2ef3eef9]" started-at="2025-08-21T16:35:27 IST" name="registerUser" data-provider="dp" finished-at="2025-08-21T16:35:30 IST" duration-ms="2838" status="PASS">
+        <test-method signature="registerAccount(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Selenium_Labs.Lab16@6eda5c9]" started-at="2025-08-22T22:04:08 IST" name="registerAccount" data-provider="UserDetails" finished-at="2025-08-22T22:04:11 IST" duration-ms="3110" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Alice]]>
+                <![CDATA[Nisha]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[Roger]]>
+                <![CDATA[Patel]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[alice08@test.com]]>
+                <![CDATA[nisha.patel@mail.com]]>
               </value>
             </param>
             <param index="3">
               <value>
-                <![CDATA[6060607070]]>
+                <![CDATA[9876309876]]>
               </value>
             </param>
             <param index="4">
               <value>
-                <![CDATA[Security@60]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[Security@60]]>
+                <![CDATA[Nisha@123]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- registerUser -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Selenium_Labs.Lab14@2ef3eef9]" started-at="2025-08-21T16:35:30 IST" name="afterMethod" finished-at="2025-08-21T16:35:30 IST" duration-ms="1" status="PASS">
+        </test-method> <!-- registerAccount -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Selenium_Labs.Lab16@6eda5c9]" started-at="2025-08-22T22:04:11 IST" name="afterMethod" finished-at="2025-08-22T22:04:11 IST" duration-ms="369" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:Selenium_Labs.Lab14@2ef3eef9]" started-at="2025-08-21T16:35:30 IST" name="afterClass" finished-at="2025-08-21T16:35:31 IST" duration-ms="511" status="PASS">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:Selenium_Labs.Lab16@6eda5c9]" started-at="2025-08-22T22:04:11 IST" name="afterClass" finished-at="2025-08-22T22:04:11 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-      </class> <!-- Selenium_Labs.Lab14 -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:Selenium_Labs.Lab16@6eda5c9]" started-at="2025-08-22T22:04:11 IST" name="afterTest" finished-at="2025-08-22T22:04:11 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:Selenium_Labs.Lab16@6eda5c9]" started-at="2025-08-22T22:04:11 IST" name="afterSuite" finished-at="2025-08-22T22:04:11 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- Selenium_Labs.Lab16 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

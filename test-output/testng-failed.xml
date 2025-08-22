@@ -3,15 +3,19 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Selenium_Labs.Lab14">
+      <class name="Selenium_Labs.Lab16">
         <methods>
-          <include name="beforeMethod"/>
-          <include name="afterClass"/>
-          <include name="afterMethod"/>
-          <include name="registerUser" invocation-numbers="0"/>
           <include name="beforeClass"/>
+          <include name="registerAccount"/>
+          <include name="beforeMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="afterClass"/>
+          <include name="afterSuite"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
         </methods>
-      </class> <!-- Selenium_Labs.Lab14 -->
+      </class> <!-- Selenium_Labs.Lab16 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

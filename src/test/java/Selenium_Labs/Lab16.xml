@@ -1,0 +1,23 @@
+<users>
+    <user>
+        <firstname>Priya</firstname>
+        <lastname>Mehta</lastname>
+        <email>priya.mehta@mail.com</email>
+        <telephone>9876101234</telephone>
+        <password>Priya@123</password>
+    </user>
+    <user>
+        <firstname>Arjun</firstname>
+        <lastname>Singh</lastname>
+        <email>arjun.singh@mail.com</email>
+        <telephone>9876205678</telephone>
+        <password>Arjun@123</password>
+    </user>
+    <user>
+        <firstname>Nisha</firstname>
+        <lastname>Patel</lastname>
+        <email>nisha.patel@mail.com</email>
+        <telephone>9876309876</telephone>
+        <password>Nisha@123</password>
+    </user>
+</users>

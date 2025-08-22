@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SuiteLab16]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="RegisterUser_Leena(failed)">
+    <parameter name="firstName" value="Leena"/>
+    <parameter name="lastName" value="Kumari"/>
+    <parameter name="password" value="leena@123"/>
+    <parameter name="confirmPassword" value="leena@123"/>
+    <parameter name="telephone" value="9876543210"/>
+    <parameter name="email" value="leena123@mail.com"/>
+    <classes>
+      <class name="Selenium_Labs.Lab16">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+          <include name="registerUser" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- Selenium_Labs.Lab16 -->
+    </classes>
+  </test> <!-- RegisterUser_Leena(failed) -->
+  <test thread-count="5" name="RegisterUser_Rohan(failed)">
+    <parameter name="firstName" value="Rohan"/>
+    <parameter name="lastName" value="Sharma"/>
+    <parameter name="password" value="rohan@123"/>
+    <parameter name="confirmPassword" value="rohan@123"/>
+    <parameter name="telephone" value="9876501234"/>
+    <parameter name="email" value="rohan99@mail.com"/>
+    <classes>
+      <class name="Selenium_Labs.Lab16">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+          <include name="registerUser" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- Selenium_Labs.Lab16 -->
+    </classes>
+  </test> <!-- RegisterUser_Rohan(failed) -->
+</suite> <!-- Failed suite [SuiteLab16] -->

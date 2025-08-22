@@ -16,7 +16,8 @@ public class Lab12 {
     public static void main(String[] args) throws IOException, InterruptedException {
 
         Properties prob = new Properties();
-        FileInputStream fis = new FileInputStream("C:\\Users\\Mayank\\OneDrive\\Desktop\\RICHA\\02-08-2025\\config.properties");
+        String projectPath = System.getProperty("user.dir");
+        FileInputStream fis = new FileInputStream(projectPath + "\\config.properties");
         prob.load(fis);
 
         String url = prob.getProperty("url");
