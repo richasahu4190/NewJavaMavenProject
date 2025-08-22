@@ -34,7 +34,6 @@ import org.xml.sax.SAXException;
 public class Lab16 {
 
     WebDriver driver;
-    String projectPath = System.getProperty("user.dir");
 
     @BeforeSuite
     public void beforeSuite() {
@@ -62,7 +61,7 @@ public class Lab16 {
     @Test(dataProvider = "UserDetails")
     public void registerAccount(String firstname, String lastname, String email,
                                 String telephone, String password) {
-        // Verify title
+       
         Assert.assertEquals(driver.getTitle(), "Your Store");
 
         driver.findElement(By.xpath("//span[text()='My Account']")).click();
